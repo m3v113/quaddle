@@ -14,6 +14,15 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
   }
 }
